@@ -22,6 +22,7 @@ li{
     position: absolute;
     left: 0px;
     top: 0px;
+    height: 300px;
 }
 #img-lunbo li{
     float: left;
@@ -39,17 +40,21 @@ li{
 }
 #img-num li{
     float: left;
+    margin-left: 10px;
+    background-color: gray;
+    border-radius: 100%;
 }
 #img-num li a{
-    margin-left: 10px;
     width: 20px;
     height: 20px;
     display: block;
     text-align: center;
     line-height: 20px;
     border-radius: 100%;
-    background-color: dimgray;
     cursor: pointer;
+}
+.current{
+    background-color: red;
 }
 #wrapper #toggle-btn{
     /* display: none; */
